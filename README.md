@@ -1,6 +1,11 @@
 # OptimAL-DL
 deep learning models for biomedical relation classification.
 
+Please download the pytorch_model.bin and put it in inputs/biobert-v1.1 file.
+https://huggingface.co/dmis-lab/biobert-v1.1/tree/main
+
+
+Ingore below.
 '''
 pip install -r requirements.txt
 '''
