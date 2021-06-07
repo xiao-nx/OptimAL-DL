@@ -23,21 +23,22 @@ The file architecture as shown below.
 # Save the trained model
 ├── checkpoints/ 
 # data related operations, such as data processing.
-├── data/ 
-│   ├── __init__.py
-│   ├── dataset.py
-│   └── get_data.sh
+├── inputs/ 
+│   ├── pretrained_models
+│   └── datasets
 # Definition deep learning models
 ├── models/ 
 │   ├── __init__.py
-│   ├── BasicModule.py
-│   └── ResNet34.py
+│   ├── textCNN.py
+│   └── Bi-lstm.py
+# Training and evaluation functions
+├── engine.py
 # Tool functions, suche visulize
 └── utils/
 │   ├── __init__.py
 │   └── visualize.py
 # Code execution
-├── main.py
+├── train.py
 # Configurable parameters and provide default values
 ├── config.py
 # The third-party libraries that the program depends on
