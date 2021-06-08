@@ -27,8 +27,8 @@ def train():
     can also choose to drop NaN values in this specific dataset
     """
 
-    train_df = pd.read_csv(config.TRAIN_DATASET_FNAME).fillna("none")
-    validation_df = pd.read_csv(config.VALIDATION_DATASET_FNAME).fillna("none")
+    train_df = pd.read_csv(config.TRAIN_DATASET_PATH)#.fillna("none")
+    validation_df = pd.read_csv(config.TEST_DATASET_PATH)#.fillna("none")
 
     # initialize BERTDataset from dataset.py
     train_dataset = dataset.BERTDataset(
