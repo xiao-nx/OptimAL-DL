@@ -5,13 +5,13 @@ Please download the pretrainde models named pytorch_model.bin and put them in th
 
 run "python run.py" in scripts file.
 
-scripts_v1.0: Bert + fully connected layer. 
+scripts_v1.0: Bert + fully connected layer.  
 best acc: 80.43% (66.90%, 80.43%, 70.12%, 75.09%,76.52%. 75.09%, 73.67%, 73.67%, 72.60%, 72.95%)
 
-scripts_v2.0: Bert + bi-lstm layer (1 layer) + fully connected layer. 
+scripts_v2.0: Bert + bi-lstm layer (1 layer) + fully connected layer.  
 best acc:77.94% (70.10%, 72.60%, 74.73%, 71.53%, 77.94%, 72.24%, 74.02%, 73.31%, 74.73%)
 
-scripts_v2.1: Bert + bi-lstm layer (2 layer) + fully connected layer. 
+scripts_v2.1: Bert + bi-lstm layer (2 layer) + fully connected layer.  
 beat acc: 75.80%(67.97%, 75.80%, 69.75%, 76.51%, 76.87%, 75.44%, 75.80%, 75.09%, 75.80%, 74.38%)
 
 
